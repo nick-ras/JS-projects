@@ -1,5 +1,5 @@
-Objects:
-const robotss = 
+
+const robot = 
 {
   model: 'SAL-1000',
   mobile: true,
@@ -56,7 +56,7 @@ robot.numOfSensors = 100
 console.log(robot.numOfSensors)
 
 
-const robot = {
+const robotss = {
   _model: '1E78V2',
   _energyLevel: 100,
   get energyLevel(){ if (typeof this._energyLevel === 'number') {
@@ -67,3 +67,5 @@ const robot = {
 }};
 
 console.log(robot.energyLevel)
+
+// export {};
