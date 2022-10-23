@@ -8,7 +8,8 @@ const getUserChoice = userInput => {
       console.log('error message');					
     }					
 };					
-console.log(getUserChoice('Rocdkdkkk'));					
+console.log(getUserChoice('Rocdkdkkk'));
+				
   // userInput = userInput.toLowerCase();					
 					
 function getComputerChoice(){					
